@@ -1,4 +1,3 @@
-flatten: true
 package: github.com/limetext/lime-html
 import:
   - package: github.com/limetext/lime-backend
@@ -10,6 +9,7 @@ import:
   - package: github.com/limetext/rubex
     ref:     3fc130e580797e3d9c6fdab36e6a961141f9fd5f
   - package: github.com/limetext/text
+    flatten: true
     ref:     d6b8f8c60fe38232a5b59388bbba0f3802c182e9
   - package: golang.org/x/net
     ref:     03affa02f16950ea3188823456766ed60bfed9bb
