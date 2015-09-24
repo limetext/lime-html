@@ -1,3 +1,4 @@
+flatten: true
 package: github.com/limetext/lime-html
 import:
   - package: github.com/limetext/lime-backend
