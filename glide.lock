@@ -1,0 +1,42 @@
+hash: acd15a120cf908d6177090e756afb2167a856bf8af80ca6418784f81edc49ff0
+updated: 2016-03-26T13:59:35.652942264Z
+imports:
+- name: github.com/atotto/clipboard
+  version: bb272b845f1112e10117e3e45ce39f690c0001ad
+- name: github.com/limetext/gopy
+  version: 953f768831d5f6389aacdc9c016ff2fb8c2ca579
+  subpackages:
+  - lib
+- name: github.com/limetext/lime-backend
+  version: 7392b2626938bfb62808c8d7ce4b5e7b463fd21c
+  subpackages:
+  - lib
+  - lib/commands
+  - lib/keys
+  - lib/log
+  - lib/render
+  - lib/sublime
+  - lib/textmate
+  - lib/util
+  - lib/packages
+  - lib/parser
+  - lib/watch
+  - lib/sublime/api
+  - lib/loaders
+  - lib/loaders/json
+  - lib/loaders/plist
+- name: github.com/limetext/log4go
+  version: 2aba105a605a9ebe476f35d7610704e4e723d4ab
+- name: github.com/limetext/rubex
+  version: 3fc130e580797e3d9c6fdab36e6a961141f9fd5f
+- name: github.com/limetext/text
+  version: 06ae8177eb526ccd7877df1d16909b4e48b75e0f
+- name: github.com/quarnster/parser
+  version: 8991807ce6d383a41077a642b7b381eba1df7064
+- name: golang.org/x/net
+  version: 1600a4cd699d70009ec28edfd69d3568f6bd757d
+  subpackages:
+  - websocket
+- name: gopkg.in/fsnotify.v1
+  version: 7be54206639f256967dd82fa767397ba5f8f48f5
+devImports: []
